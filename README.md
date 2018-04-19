@@ -5,11 +5,11 @@ The script can be used in two modes:
 -  module mode
 
 ## Server mode
-Allow to split module of your system in two separate parts. First part is a Windows servev with SmartCOM API and wrapper script. Second part is you code in under Linux or Windows. In server mode your could run script as server(under Windows only):
+Allow to split your system in two separate parts. First part is a Windows server with SmartCOM API and wrapper script. Second part is you code in under Linux or Windows. In server mode your could run script as server(under Windows only):
 ```shell
 python smartcom3.py
 ```
-Then from your code (Linux or Windows Machine) connect to
+Then from your code (Linux or Windows machine) connect to
 remote manager (server) like this:
 
 ```python
