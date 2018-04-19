@@ -1,0 +1,12 @@
+pythonServer:
+  address: 127.0.0.1
+  port: 50000
+  authkey: AbCdEfGh123456789
+application:
+  logger:
+    enabled: true
+    level: 10
+  server: mxdemo.ittrade.ru
+  port: 8443
+  login: LOGIN
+  password: PASSWORD
